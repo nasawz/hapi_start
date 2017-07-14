@@ -23,5 +23,19 @@ exports.default = {
                 cors: true
             }
         }
+    ],
+    registrations: [
+        {
+            plugin: {
+                register: 'blipp',
+                options: {}
+            }
+        },
+        {
+            plugin: "./modules/danmu",
+            options: {
+                "select": "api"
+            }
+        }
     ]
 };

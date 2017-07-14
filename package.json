@@ -11,8 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^8.0.11",
+    "blipp": "^2.3.0",
     "glue": "^4.1.0",
     "hapi": "^16.4.3",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "plugo": "^0.4.0"
   }
 }
