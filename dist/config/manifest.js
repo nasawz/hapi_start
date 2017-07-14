@@ -1,0 +1,27 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
+    server: {
+        debug: {
+            request: [
+                'error',
+                'received'
+            ]
+        }
+    },
+    connections: [
+        {
+            host: '127.0.0.1',
+            port: 8062,
+            labels: [
+                'api'
+            ],
+            state: {
+                strictHeader: false
+            },
+            routes: {
+                cors: true
+            }
+        }
+    ]
+};
