@@ -1,5 +1,5 @@
 
-declare let models: any;
+// declare let models: any;
 
 module.exports.hello = {
     handler: function (request, reply) {
